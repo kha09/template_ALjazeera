@@ -88,7 +88,8 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     padding: 16px 30px 12px 30px;
     /*padding: auto;*/
-    background: #009970;
+    /*background: #009970;*/
+    background: #3c6e71;
 }
 
 #header .logo h1 {
@@ -645,9 +646,14 @@ section {
 
 /*###################### Test ###################*/
 
-/*.backTest {*/
-/*    background-color: rgba(45, 45, 45, 0.49);*/
-/*}*/
+.backTest {
+    background-color: rgb(51, 53, 51);
+}
+
+.backTest2 {
+    /*background-color: rgb(100, 18, 32);*/
+    background-color: rgb(240, 239, 235);
+}
 
 
 .proTest {
@@ -672,16 +678,17 @@ section {
 
 
 .btn.btn-primary {
-    background: #669999;
-    border-color: #669999;
+    background: #a8dadc;
+    border-color: #a8dadc;
 }
 
 .product-small {
     position: relative;
     /*width: 250px;*/
     width: 250px;
-    border: 2px solid #FFF;
+    /*border: 2px solid rgb(255, 255, 255);*/
     padding: 5px;
+    margin-bottom: 40px;
 }
 
 
@@ -709,15 +716,33 @@ section {
 }
 
 .product-small .name {
-    text-align: right;
-    font-size: 14px;
+    text-align: center;
+    padding-right: 5px;
+    font-size: 16px;
     /*height: 40px;*/
-    color: #000;
+    color: #ffffff;
+    /*color: #000;*/
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.product-small .name3 {
+    text-align: center;
+    padding-right: 5px;
+    font-size: 16px;
+    /*height: 40px;*/
+    /*color: #ffffff;*/
+    color: #000000;
+    /*color: #000;*/
     font-weight: bold;
     overflow: hidden;
 }
 
 .product-small .name a {
+    color: inherit;
+}
+
+.product-small .name3 a {
     color: inherit;
 }
 
@@ -727,11 +752,12 @@ section {
 }
 
 .product-small .price-now {
-    padding-right: 20px;
+    /*padding-right: 20px;*/
     padding-bottom: 10px;
-    text-align: right;
-    font-size: 13px;
-    color: #F63;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e5383b;
 }
 
 .product-small .added-to-cart-overlay {
@@ -762,9 +788,9 @@ section {
 }
 
 .product-small .btn-add-to-cart {
-    background: #000;
-    border-color: #111;
-    color: #FFF;
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #03045e;
 }
 
 .product-small .btn-add-to-cart .custom-icon::before {
@@ -797,8 +823,8 @@ section {
 }
 
 .product-small:hover .btn-add-to-cart:not(.on-overlay) {
-    background: #669999;
-    border-color: #669999;
+    background: #333533;
+    border-color: #ffffff;
 }
 
 .product-small {
@@ -808,10 +834,18 @@ section {
 
 /*########### section padding #################*/
 
+.backOne {
+    background-color: #ffffff;
 
+}
+
+.backZero {
+    background-color: #ffffff;
+
+}
 
 .section-padding30 {
-    background-color: #f6f6f6;
+    /*background-color: #f6f6f6;*/
     padding-top: 200px;
     padding-bottom: 170px
 }
