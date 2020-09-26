@@ -648,7 +648,7 @@ section {
 
 .backTest {
     /*background-color: rgb(51, 53, 51);*/
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(255, 255, 255);
 }
 
 .backTest2 {
@@ -687,7 +687,7 @@ section {
     position: relative;
     /*width: 250px;*/
     width: 250px;
-    /*border: 2px solid rgb(255, 255, 255);*/
+    border: 2px solid rgb(0, 0, 0);
     padding: 5px;
     margin-bottom: 40px;
 }
@@ -720,7 +720,7 @@ section {
     padding-right: 5px;
     font-size: 16px;
     /*height: 40px;*/
-    color: #ffffff;
+    color: #000000;
     /*color: #000;*/
     font-weight: bold;
     overflow: hidden;
@@ -788,9 +788,9 @@ section {
 }
 
 .product-small .btn-add-to-cart {
-    background: #ffffff;
-    border-color: #ffffff;
-    color: #03045e;
+    background: #000000;
+    border-color: #000000;
+    color: #ffffff;
 }
 
 .product-small .btn-add-to-cart .custom-icon::before {
@@ -901,6 +901,9 @@ section {
 
 .section-tittle h2 {
     color: #000000;
+    font-size: 36px;
+    line-height: 1;
+    font-weight: 700;
 }
 
 .section-tittle p {
@@ -1107,6 +1110,60 @@ section {
     }
 }
 
+
+
+/*###############Feature###############*/
+
+
+/* Feature 1 */
+.feature-1 .wrap-icon {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.feature-1 .wrap-icon.icon-1 {
+  background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+}
+
+.feature-1 .wrap-icon .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.feature-1 h3 {
+  font-size: 20px;
+}
+
+.feature-1 p {
+  color: #b1b1b1;
+}
+
+
+section {
+  overflow: hidden;
+}
+
+.section {
+  padding: 7rem 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  /*background: linear-gradient(-45deg, #3db3c5, #274685);*/
+  background: linear-gradient(45deg, rgb(144, 144, 144), #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /*################# Footer timezone ############################*/
 
