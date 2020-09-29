@@ -658,10 +658,16 @@ section {
 
 
 .proTest {
-    width: 1000px;
+    width: 1020px;
     margin: 40px auto;
 }
 
+@media only screen and (min-width: 990px) and (max-width: 2000px) {
+    .proTest {
+        width: 1020px;
+        margin: 40px auto;
+    }
+}
 
 @media only screen and (min-width: 550px) and (max-width: 767px) {
     .proTest {
@@ -690,7 +696,15 @@ section {
     border: 2px solid rgb(0, 0, 0);
     padding: 5px;
     margin-bottom: 40px;
+    /*margin-right: 5px;*/
 }
+
+@media only screen and (min-width: 990px) and (max-width: 2000px) {
+    .product-small {
+        margin-right: 5px;
+    }
+}
+
 
 
 @media only screen and (min-width: 150px) and (max-width: 550px) {
@@ -953,7 +967,8 @@ section {
 #footer {
     text-align: right;
     text-direction: rtl;
-    background: #0c0c0c;
+    /*background: #0c0c0c;*/
+    background: #3c6e71;
     padding: 0 0 30px 0;
     color: #fff;
     font-size: 14px;
@@ -965,9 +980,11 @@ section {
 
 #footer .footer-top .footer-info {
     margin-bottom: 15px;
-    background: #191919;
+    /*background: #191919;*/
+    background: #4b8d90;
     color: #fff;
-    border-top: 4px solid #cc1616;
+    /*border-top: 4px solid #cc1616;*/
+    border-top: 4px solid #c5c2be;
     text-align: center;
     padding: 30px 20px;
 }
@@ -1077,14 +1094,16 @@ section {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #cc1616;
+    /*background: #cc1616;*/
+    background: #56979a;
     color: #fff;
     transition: 0.3s;
     border-radius: 4;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-    background: #e82d2d;
+    /*background: #e82d2d;*/
+    background: #67a8ab;
 }
 
 #footer .copyright {
@@ -1125,8 +1144,12 @@ section {
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
 }
 
+/*.feature-1 .wrap-icon.icon-1 {*/
+/*    background: linear-gradient(-45deg, #3b87bd, #2d71a2);*/
+/*}*/
+
 .feature-1 .wrap-icon.icon-1 {
-    background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+    background: linear-gradient(-45deg, #56979a, #3c6e71);
 }
 
 .feature-1 .wrap-icon .icon {
