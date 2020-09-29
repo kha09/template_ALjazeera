@@ -662,14 +662,14 @@ section {
     margin: 40px auto;
 }
 
-@media only screen and (min-width: 990px) and (max-width: 2000px) {
+@media only screen and (min-width: 1032px) and (max-width: 2000px) {
     .proTest {
         width: 1020px;
         margin: 40px auto;
     }
 }
 
-@media only screen and (min-width: 550px) and (max-width: 767px) {
+@media only screen and (min-width: 550px) and (max-width: 1028px) {
     .proTest {
         width: 500px;
         margin: 40px auto;
@@ -699,7 +699,7 @@ section {
     /*margin-right: 5px;*/
 }
 
-@media only screen and (min-width: 990px) and (max-width: 2000px) {
+@media only screen and (min-width: 1030px) and (max-width: 2000px) {
     .product-small {
         margin-right: 5px;
     }
