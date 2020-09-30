@@ -710,7 +710,8 @@ section {
 @media only screen and (min-width: 150px) and (max-width: 550px) {
     .product-small {
         width: 200px;
-        margin: 40px auto;
+        /*margin: 40px auto;*/
+        /*margin-right: 3px;*/
     }
 }
 
@@ -1020,7 +1021,8 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-    background: #cc1616;
+    /*background: #cc1616;*/
+    background: #4b8d90;
     color: #fff;
     text-decoration: none;
 }
@@ -1045,7 +1047,8 @@ section {
 
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #ed5b5b;
+    /*color: #ed5b5b;*/
+    color: #67a8ab;
     font-size: 18px;
     line-height: 1;
 }
